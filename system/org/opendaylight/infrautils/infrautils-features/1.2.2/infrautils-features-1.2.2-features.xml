@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="infrautils-features">
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-all/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-all-with-samples/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-counters/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-counters-sample/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-inject/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-jobcoordinator/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-utils/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-ready/1.2.2/xml/features</repository>
+    <feature name="infrautils-features" description="ODL :: infrautils :: infrautils-features" version="1.2.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-all</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-all-with-samples</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-counters</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-counters-sample</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-inject</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-jobcoordinator</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-utils</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-ready</feature>
+    </feature>
+</features>

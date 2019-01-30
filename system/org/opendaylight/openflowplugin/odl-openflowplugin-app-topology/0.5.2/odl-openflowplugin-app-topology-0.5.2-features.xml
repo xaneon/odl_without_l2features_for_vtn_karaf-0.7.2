@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-openflowplugin-app-topology">
+    <repository>mvn:org.opendaylight.openflowplugin/odl-openflowplugin-southbound/0.5.2/xml/features</repository>
+    <feature name="odl-openflowplugin-app-topology" description="OpenDaylight :: Openflow Plugin :: Application - topology" version="0.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-openflowplugin-southbound</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.openflowplugin.applications/lldp-speaker/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.openflowplugin.applications/topology-lldp-discovery/0.5.2</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.10</bundle>
+        <bundle>mvn:org.opendaylight.openflowplugin.applications/topology-manager/0.5.2</bundle>
+    </feature>
+</features>

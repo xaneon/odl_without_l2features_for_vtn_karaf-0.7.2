@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-guava-22">
+    <feature name="odl-guava-22" description="OpenDaylight :: Guava 22 (for Karaf 4)" version="2.0.5">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.google.guava/guava/22.0</bundle>
+        <bundle>wrap:mvn:com.google.errorprone/error_prone_annotations/2.0.18</bundle>
+        <bundle>wrap:mvn:com.google.j2objc/j2objc-annotations/1.1</bundle>
+        <bundle>wrap:mvn:org.codehaus.mojo/animal-sniffer-annotations/1.14</bundle>
+    </feature>
+</features>

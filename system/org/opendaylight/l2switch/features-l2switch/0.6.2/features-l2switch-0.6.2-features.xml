@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-l2switch">
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-all/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-switch/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-switch-rest/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-switch-ui/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-hosttracker/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-addresstracker/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-arphandler/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-loopremover/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/odl-l2switch-packethandler/0.6.2/xml/features</repository>
+    <feature name="features-l2switch" description="features-l2switch" version="0.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-all</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-switch</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-switch-rest</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-switch-ui</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-hosttracker</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-addresstracker</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-arphandler</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-loopremover</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-l2switch-packethandler</feature>
+    </feature>
+</features>

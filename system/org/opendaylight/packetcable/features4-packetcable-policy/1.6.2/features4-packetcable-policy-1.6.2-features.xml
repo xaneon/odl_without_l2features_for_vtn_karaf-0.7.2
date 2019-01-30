@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features4-packetcable-policy">
+    <repository>mvn:org.opendaylight.packetcable/odl-packetcable-policy-server-all/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.packetcable/odl-packetcable-policy-model/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.packetcable/odl-packetcable-policy-server/1.6.2/xml/features</repository>
+    <feature name="features4-packetcable-policy" description="features4-packetcable-policy" version="1.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-packetcable-policy-server-all</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-packetcable-policy-model</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-packetcable-policy-server</feature>
+    </feature>
+</features>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features4-faas">
+    <repository>mvn:org.opendaylight.faas/odl-faas-base/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.faas/odl-faas-all/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.faas/odl-faas-fabric/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.faas/odl-faas-vlan-fabric/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.faas/odl-faas-vxlan-fabric/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.faas/odl-faas-vxlan-ovs-adapter/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.faas/odl-faas-fabricmgr/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.faas/odl-faas-uln-mapper/1.3.2/xml/features</repository>
+    <feature name="features4-faas" description="features4-faas" version="1.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-base</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-all</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-fabric</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-vlan-fabric</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-vxlan-fabric</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-vxlan-ovs-adapter</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-fabricmgr</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-uln-mapper</feature>
+    </feature>
+</features>

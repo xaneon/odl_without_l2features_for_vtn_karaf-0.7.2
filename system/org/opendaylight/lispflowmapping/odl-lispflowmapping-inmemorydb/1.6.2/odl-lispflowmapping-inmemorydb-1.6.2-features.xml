@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-lispflowmapping-inmemorydb">
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-models/1.6.2/xml/features</repository>
+    <feature name="odl-lispflowmapping-inmemorydb" description="ODL :: lispflowmapping :: odl-lispflowmapping-inmemorydb" version="1.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-models</feature>
+        <bundle>mvn:org.opendaylight.lispflowmapping/mappingservice.inmemorydb/1.6.2</bundle>
+    </feature>
+</features>

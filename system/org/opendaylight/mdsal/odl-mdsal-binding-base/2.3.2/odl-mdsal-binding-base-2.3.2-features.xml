@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-mdsal-binding-base">
+    <repository>mvn:org.opendaylight.yangtools/odl-yangtools-common/1.2.2/xml/features</repository>
+    <feature name="odl-mdsal-binding-base" description="OpenDaylight :: MD-SAL :: Binding Base Concepts" version="2.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-yangtools-common</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.mdsal/yang-binding/0.11.2</bundle>
+        <bundle>mvn:org.opendaylight.mdsal.model/yang-ext/2013.09.07.11.2</bundle>
+    </feature>
+</features>

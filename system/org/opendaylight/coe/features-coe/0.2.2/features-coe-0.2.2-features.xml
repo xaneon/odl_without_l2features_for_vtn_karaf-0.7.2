@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-coe">
+    <repository>mvn:org.opendaylight.coe/odl-coe-api/0.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.coe/odl-coe/0.2.2/xml/features</repository>
+    <feature name="features-coe" description="features-coe" version="0.2.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.2.2" prerequisite="false" dependency="false">odl-coe-api</feature>
+        <feature version="0.2.2" prerequisite="false" dependency="false">odl-coe</feature>
+    </feature>
+</features>

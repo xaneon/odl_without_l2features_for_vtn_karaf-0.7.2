@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-extras-all">
+    <repository>mvn:org.opendaylight.controller/odl-jolokia/1.9.2/xml/features</repository>
+    <feature name="odl-extras-all" description="OpenDaylight :: Extras :: All" version="1.9.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.9.2" prerequisite="false" dependency="false">odl-jolokia</feature>
+    </feature>
+</features>

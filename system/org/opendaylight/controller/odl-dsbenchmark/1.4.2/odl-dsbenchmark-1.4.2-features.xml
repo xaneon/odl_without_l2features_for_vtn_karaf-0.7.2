@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-dsbenchmark">
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-benchmark-api/1.4.2/xml/features</repository>
+    <feature name="odl-dsbenchmark" description="OpenDaylight :: dsbenchmark" version="1.4.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature version="1.4.2" prerequisite="false" dependency="false">odl-benchmark-api</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.controller/dsbenchmark/1.4.2</bundle>
+    </feature>
+</features>

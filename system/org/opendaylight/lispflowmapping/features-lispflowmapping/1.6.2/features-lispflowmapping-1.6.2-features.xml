@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-lispflowmapping">
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-models/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-inmemorydb/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-southbound/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-mappingservice/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-msmr/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-mappingservice-shell/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-neutron/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-ui/1.6.2/xml/features</repository>
+    <feature name="features-lispflowmapping" description="ODL :: lispflowmapping :: features-lispflowmapping" version="1.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-models</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-inmemorydb</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-southbound</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-mappingservice</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-msmr</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-mappingservice-shell</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-neutron</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-ui</feature>
+    </feature>
+</features>

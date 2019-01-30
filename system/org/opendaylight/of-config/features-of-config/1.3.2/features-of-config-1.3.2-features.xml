@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-of-config">
+    <repository>mvn:org.opendaylight.of-config/odl-of-config-all/1.3.2/xml/features</repository>
+    <feature name="features-of-config" description="features-of-config" version="1.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-of-config-all</feature>
+    </feature>
+</features>

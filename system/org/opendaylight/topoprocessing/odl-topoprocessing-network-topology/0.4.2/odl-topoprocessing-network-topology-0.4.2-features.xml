@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-topoprocessing-network-topology">
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-framework/0.4.2/xml/features</repository>
+    <feature name="odl-topoprocessing-network-topology" description="ODL :: topoprocessing :: odl-topoprocessing-network-topology" version="0.4.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-framework</feature>
+        <bundle>mvn:org.opendaylight.topoprocessing/topoprocessing-nt/0.4.2</bundle>
+    </feature>
+</features>

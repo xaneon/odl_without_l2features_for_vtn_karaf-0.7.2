@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-netvirt-0.5.2">
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/odl-ovsdb-southbound-impl/1.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/odl-ovsdb-hwvtepsouthbound/1.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netvirt/odl-netvirt-api/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.openflowplugin/odl-openflowplugin-southbound/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.openflowplugin/odl-openflowplugin-flow-services/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.genius/odl-genius/0.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-inject/1.2.2/xml/features</repository>
+    <feature name="odl-netvirt-impl" description="OpenDaylight :: NetVirt :: impl" version="0.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-aclservice-config.xml">
+            mvn:org.opendaylight.netvirt/aclservice-impl/0.5.2/xml/config
+        </configfile>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-dhcpservice-config.xml">
+            mvn:org.opendaylight.netvirt/dhcpservice-impl/0.5.2/xml/config
+        </configfile>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-elanmanager-config.xml">
+            mvn:org.opendaylight.netvirt/elanmanager-impl/0.5.2/xml/config
+        </configfile>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-natservice-config.xml">
+            mvn:org.opendaylight.netvirt/natservice-impl/0.5.2/xml/config
+        </configfile>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-neutronvpn-config.xml">
+            mvn:org.opendaylight.netvirt/neutronvpn-impl/0.5.2/xml/config
+        </configfile>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-qosservice-config.xml">
+            mvn:org.opendaylight.netvirt/qosservice-impl/0.5.2/xml/config
+        </configfile>
+        <configfile finalname="etc/org.opendaylight.netvirt.qosservice.cfg">
+            mvn:org.opendaylight.netvirt/qosservice-impl/0.5.2/cfg/config
+        </configfile>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-statistics-config.xml">
+            mvn:org.opendaylight.netvirt/statistics-impl/0.5.2/xml/config
+        </configfile>
+        <configfile finalname="etc/opendaylight/datastore/initial/config/netvirt-vpnmanager-config.xml">
+            mvn:org.opendaylight.netvirt/vpnmanager-impl/0.5.2/xml/config
+        </configfile>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-ovsdb-southbound-impl</feature>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-ovsdb-hwvtepsouthbound</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-netvirt-api</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-openflowplugin-southbound</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-openflowplugin-flow-services</feature>
+        <feature version="0.3.2" prerequisite="false" dependency="false">odl-genius</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-inject</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>wrap:mvn:org.apache.thrift/libthrift/0.9.1$overwrite=merge&amp;Bundle-Version=0.9.1&amp;Export-Package=*;-noimport:=true;version="0.9.1"</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/bgpmanager-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/vpnmanager-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/vpnmanager-shell/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/fibmanager-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/fibmanager-shell/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/neutronvpn-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/neutronvpn-shell/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/dhcpservice-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/cloud-servicechain-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/elanmanager-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/natservice-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/aclservice-impl/0.5.2</bundle>
+        <bundle>wrap:mvn:com.googlecode.java-ipv6/java-ipv6/0.16</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/qosservice-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/qosservice-api/0.5.2</bundle>
+        <bundle>mvn:org.apache.felix/org.apache.felix.configadmin/1.8.14</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/ipv6service-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/ipv6service-shell/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/statemanager-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/statistics-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.netvirt/coe-impl/0.5.2</bundle>
+        <bundle>mvn:org.opendaylight.coe/coe-northbound-api/0.2.2</bundle>
+    </feature>
+</features>

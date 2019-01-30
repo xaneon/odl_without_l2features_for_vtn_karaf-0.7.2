@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-eman-api">
+    <feature name="odl-eman-api" description="ODL :: eman :: Api" version="1.2.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.eman/eman-api/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.mdsal.model/ietf-yang-types-20130715/2013.07.15.11.2</bundle>
+        <bundle>mvn:org.opendaylight.mdsal.model/ietf-type-util/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.snmp/mibs-model/1.4.2</bundle>
+        <bundle>mvn:com.google.guava/guava/22.0</bundle>
+        <bundle>wrap:mvn:com.google.errorprone/error_prone_annotations/2.0.18</bundle>
+        <bundle>wrap:mvn:com.google.j2objc/j2objc-annotations/1.1</bundle>
+        <bundle>wrap:mvn:org.codehaus.mojo/animal-sniffer-annotations/1.14</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/concepts/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/yang-common/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/object-cache-api/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.mdsal/yang-binding/0.11.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/util/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/triemap/0.10.2</bundle>
+    </feature>
+</features>

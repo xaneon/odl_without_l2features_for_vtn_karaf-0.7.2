@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features4-sfc">
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-shell/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-genius/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-ios-xe-renderer/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-model/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-netconf/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-openflow-renderer/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-ovs/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-pot/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-pot-netconf-renderer/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-provider/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-provider-rest/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-sb-rest/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-scf-openflow/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-scf-vpp/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-test-consumer/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-ui/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-vnfm-tacker/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-vpp-renderer/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sfc/odl-sfclisp/0.6.2/xml/features</repository>
+    <feature name="features4-sfc" description="ODL :: sfc :: features4-sfc" version="0.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-shell</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-genius</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-ios-xe-renderer</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-model</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-netconf</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-openflow-renderer</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-ovs</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-pot</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-pot-netconf-renderer</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-provider</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-provider-rest</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-sb-rest</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-scf-openflow</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-scf-vpp</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-test-consumer</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-ui</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-vnfm-tacker</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-vpp-renderer</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfclisp</feature>
+    </feature>
+</features>

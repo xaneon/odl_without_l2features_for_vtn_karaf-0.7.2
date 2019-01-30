@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-mdsal-common">
+    <repository>mvn:org.opendaylight.yangtools/odl-yangtools-common/1.2.2/xml/features</repository>
+    <feature name="odl-mdsal-common" description="OpenDaylight :: MD-SAL :: Common" version="2.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-yangtools-common</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.mdsal/mdsal-common-api/2.3.2</bundle>
+    </feature>
+</features>

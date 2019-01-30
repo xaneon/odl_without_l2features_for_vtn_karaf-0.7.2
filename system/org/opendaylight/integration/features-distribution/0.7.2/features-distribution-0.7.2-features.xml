@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-distribution">
+    <repository>mvn:org.opendaylight.integration/odl-distribution-version/0.7.2/xml/features</repository>
+    <feature name="features-distribution" description="ODL :: integration :: features-distribution" version="0.7.2">
+        <details>Repository of features internal to distribution.</details>
+        <feature version="0.7.2" prerequisite="false" dependency="false">odl-distribution-version</feature>
+    </feature>
+</features>

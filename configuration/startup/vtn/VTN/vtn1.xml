@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vtn>
+    <name>vtn1</name>
+    <description>creating vtn</description>
+    <idle-timeout>300</idle-timeout>
+    <hard-timeout>0</hard-timeout>
+    <vbridges>
+        <vbridge>
+            <name>vbr2</name>
+            <vinterfaces>
+                <vinterface>
+                    <name>if2</name>
+                    <enabled>true</enabled>
+                    <port-map>
+                        <node>openflow:4</node>
+                        <port-name>sSW-eth4</port-name>
+                        <vlan-id>0</vlan-id>
+                    </port-map>
+                </vinterface>
+                <vinterface>
+                    <name>if1</name>
+                    <enabled>true</enabled>
+                    <port-map>
+                        <node>openflow:3</node>
+                        <port-name>sNE-eth5</port-name>
+                        <vlan-id>0</vlan-id>
+                    </port-map>
+                </vinterface>
+            </vinterfaces>
+            <age-interval>600</age-interval>
+        </vbridge>
+        <vbridge>
+            <name>vbr1</name>
+            <vinterfaces>
+                <vinterface>
+                    <name>if2</name>
+                    <enabled>true</enabled>
+                    <port-map>
+                        <node>openflow:5</node>
+                        <port-name>sSE-eth4</port-name>
+                        <vlan-id>0</vlan-id>
+                    </port-map>
+                </vinterface>
+                <vinterface>
+                    <name>if1</name>
+                    <enabled>true</enabled>
+                    <port-map>
+                        <node>openflow:1</node>
+                        <port-name>sN-eth3</port-name>
+                        <vlan-id>0</vlan-id>
+                    </port-map>
+                </vinterface>
+            </vinterfaces>
+            <age-interval>600</age-interval>
+        </vbridge>
+    </vbridges>
+</vtn>

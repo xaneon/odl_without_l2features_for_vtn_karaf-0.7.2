@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-bgpcep-0.8.2">
+    <feature name="odl-bgpcep-config-files" description="OpenDaylight :: Configuration Example Files" version="0.8.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <configfile finalname="etc/opendaylight/bgp/protocols-config.xml">mvn:org.opendaylight.bgpcep/bgp-controller-config/0.8.2/xml/bgp-initial-config</configfile>
+        <configfile finalname="etc/opendaylight/bgp/network-topology-config.xml">mvn:org.opendaylight.bgpcep/bgp-controller-config/0.8.2/xml/network-topology-initial-config</configfile>
+    </feature>
+</features>

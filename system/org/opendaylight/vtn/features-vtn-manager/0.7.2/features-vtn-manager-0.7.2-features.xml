@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-vtn-manager">
+    <repository>mvn:org.opendaylight.vtn/odl-vtn-manager/0.7.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.vtn/odl-vtn-manager-neutron/0.7.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.vtn/odl-vtn-manager-rest/0.7.2/xml/features</repository>
+    <feature name="features-vtn-manager" description="features-vtn-manager" version="0.7.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.7.2" prerequisite="false" dependency="false">odl-vtn-manager</feature>
+        <feature version="0.7.2" prerequisite="false" dependency="false">odl-vtn-manager-neutron</feature>
+        <feature version="0.7.2" prerequisite="false" dependency="false">odl-vtn-manager-rest</feature>
+    </feature>
+</features>

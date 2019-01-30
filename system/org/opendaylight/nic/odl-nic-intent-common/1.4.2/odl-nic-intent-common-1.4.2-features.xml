@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-nic-intent-common">
+    <repository>mvn:org.opendaylight.nic/odl-nic-core-mdsal/1.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.genius/odl-genius-api/0.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.genius/odl-genius/0.3.2/xml/features</repository>
+    <feature name="odl-nic-intent-common" description="OpenDaylight :: NIC :: odl-nic-intent-common" version="1.4.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.4.2" prerequisite="false" dependency="false">odl-nic-core-mdsal</feature>
+        <feature version="0.3.2" prerequisite="false" dependency="false">odl-genius-api</feature>
+        <feature version="0.3.2" prerequisite="false" dependency="false">odl-genius</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.nic/pipeline-manager/1.4.2</bundle>
+        <bundle>mvn:org.opendaylight.nic/intent-statemachine/1.4.2</bundle>
+        <bundle>mvn:org.opendaylight.nic/of-renderer/1.4.2</bundle>
+        <bundle>mvn:org.opendaylight.controller.thirdparty/net.sf.jung2/2.0.1</bundle>
+        <bundle>wrap:mvn:net.sf.jung/jung-api/2.0.1</bundle>
+        <bundle>wrap:mvn:net.sf.jung/jung-graph-impl/2.0.1</bundle>
+        <bundle>wrap:mvn:net.sourceforge.collections/collections-generic/4.01</bundle>
+        <bundle>mvn:org.opendaylight.nic/renderer-api/1.4.2</bundle>
+        <bundle>mvn:org.opendaylight.nic/bgp-renderer/1.4.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-rib-api/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-parser-api/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/util/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-concepts/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/concepts/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-rib-spi/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-parser-spi/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-inet/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-bmp-api/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-openconfig-api/0.8.2</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-openconfig-spi/0.8.2</bundle>
+        <bundle>mvn:javax.ws.rs/javax.ws.rs-api/2.0.1</bundle>
+        <bundle>mvn:org.opendaylight.nic/network-mapping/1.4.2</bundle>
+        <bundle>mvn:org.opendaylight.nic/intent-common/1.4.2</bundle>
+    </feature>
+</features>

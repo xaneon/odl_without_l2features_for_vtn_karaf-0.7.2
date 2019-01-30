@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-mdsal-singleton-dom">
+    <repository>mvn:org.opendaylight.mdsal/odl-mdsal-singleton-common/2.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.mdsal/odl-mdsal-eos-dom/2.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.mdsal/odl-mdsal-common/2.3.2/xml/features</repository>
+    <feature name="odl-mdsal-singleton-dom" description="OpenDaylight :: MD-SAL :: Singleton :: DOM" version="2.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="2.3.2" prerequisite="false" dependency="false">odl-mdsal-singleton-common</feature>
+        <feature version="2.3.2" prerequisite="false" dependency="false">odl-mdsal-eos-dom</feature>
+        <feature version="2.3.2" prerequisite="false" dependency="false">odl-mdsal-common</feature>
+        <bundle>mvn:org.opendaylight.mdsal/mdsal-singleton-dom-impl/2.3.2</bundle>
+    </feature>
+</features>

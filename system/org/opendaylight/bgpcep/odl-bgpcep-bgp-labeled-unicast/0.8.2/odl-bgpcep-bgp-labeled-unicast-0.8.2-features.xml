@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-bgpcep-bgp-labeled-unicast">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-parser/0.8.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-rib-api/0.8.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-inet/0.8.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-openconfig/0.8.2/xml/features</repository>
+    <feature name="odl-bgpcep-bgp-labeled-unicast" description="OpenDaylight :: BGP :: Labeled Unicast" version="0.8.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-bgp-parser</feature>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-bgp-rib-api</feature>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-bgp-inet</feature>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-bgp-openconfig</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-labeled-unicast/0.8.2</bundle>
+    </feature>
+</features>

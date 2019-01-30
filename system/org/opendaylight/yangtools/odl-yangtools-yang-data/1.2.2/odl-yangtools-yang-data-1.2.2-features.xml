@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-yangtools-yang-data">
+    <repository>mvn:org.opendaylight.yangtools/odl-yangtools-yang-parser/1.2.2/xml/features</repository>
+    <feature name="odl-yangtools-yang-data" description="OpenDaylight :: Yangtools :: Data Binding" version="1.2.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-yangtools-yang-parser</feature>
+        <bundle>mvn:org.opendaylight.yangtools/yang-data-codec-gson/1.2.2</bundle>
+        <bundle>mvn:com.google.code.gson/gson/2.7</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/yang-data-impl/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/yang-data-codec-xml/1.2.2</bundle>
+        <bundle>mvn:org.codehaus.woodstox/stax2-api/3.1.4</bundle>
+    </feature>
+</features>

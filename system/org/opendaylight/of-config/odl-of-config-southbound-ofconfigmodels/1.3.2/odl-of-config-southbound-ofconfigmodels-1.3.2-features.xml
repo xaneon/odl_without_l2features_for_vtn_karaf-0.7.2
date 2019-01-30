@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-of-config-southbound-ofconfigmodels">
+    <repository>mvn:org.opendaylight.mdsal.model/odl-mdsal-models/0.11.2/xml/features</repository>
+    <feature name="odl-of-config-southbound-ofconfigmodels" description="OpenDaylight :: of-config:: southbound :: ofconfigmodels" version="1.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.11.2" prerequisite="false" dependency="false">odl-mdsal-models</feature>
+        <bundle>mvn:org.opendaylight.of-config/southbound-ofconfigmodels/1.3.2</bundle>
+    </feature>
+</features>

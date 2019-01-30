@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-akka-persistence-2.4">
+    <repository>mvn:org.opendaylight.odlparent/odl-akka-leveldb-0.7/2.0.5/xml/features</repository>
+    <repository>mvn:org.opendaylight.odlparent/odl-akka-system-2.4/2.0.5/xml/features</repository>
+    <feature name="odl-akka-persistence-2.4" description="Akka Persistence" version="2.0.5">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="2.0.5" prerequisite="false" dependency="false">odl-akka-leveldb-0.7</feature>
+        <feature version="2.0.5" prerequisite="false" dependency="false">odl-akka-system-2.4</feature>
+        <bundle>mvn:com.typesafe.akka/akka-persistence_2.11/2.4.18</bundle>
+        <bundle>mvn:com.typesafe.akka/akka-protobuf_2.11/2.4.18</bundle>
+    </feature>
+</features>

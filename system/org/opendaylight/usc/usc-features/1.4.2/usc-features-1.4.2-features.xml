@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="usc-features">
+    <repository>mvn:org.opendaylight.usc/odl-usc-agent/1.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.usc/odl-usc-api/1.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.usc/odl-usc-channel/1.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.usc/odl-usc-channel-rest/1.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.usc/odl-usc-channel-ui/1.4.2/xml/features</repository>
+    <feature name="usc-features" description="ODL :: usc :: usc-features" version="1.4.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.4.2" prerequisite="false" dependency="false">odl-usc-agent</feature>
+        <feature version="1.4.2" prerequisite="false" dependency="false">odl-usc-api</feature>
+        <feature version="1.4.2" prerequisite="false" dependency="false">odl-usc-channel</feature>
+        <feature version="1.4.2" prerequisite="false" dependency="false">odl-usc-channel-rest</feature>
+        <feature version="1.4.2" prerequisite="false" dependency="false">odl-usc-channel-ui</feature>
+    </feature>
+</features>

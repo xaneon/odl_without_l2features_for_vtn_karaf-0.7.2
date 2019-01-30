@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-bgpcep-0.8.2">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-programming-api/0.8.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.2/xml/features</repository>
+    <feature name="odl-bgpcep-programming-impl" description="OpenDaylight :: PCEP :: Programming Impl" version="0.8.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <configfile finalname="etc/opendaylight/karaf/30-programming.xml">
+            mvn:org.opendaylight.bgpcep/programming-controller-config/0.8.2/xml/config
+        </configfile>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-programming-api</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/programming-impl/0.8.2</bundle>
+    </feature>
+</features>

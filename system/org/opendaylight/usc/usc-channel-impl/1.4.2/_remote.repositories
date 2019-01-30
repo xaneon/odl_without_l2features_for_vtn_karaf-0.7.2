@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Feb 14 07:26:49 UTC 2018
+usc-channel-impl-1.4.2-akka.conf>=
+usc-channel-impl-1.4.2.jar>=
+usc-channel-impl-1.4.2-rootCA.pem>=
+usc-channel-impl-1.4.2-config.xml>=
+usc-channel-impl-1.4.2-clientkey.pem>=
+usc-channel-impl-1.4.2-usc.properties>=
+usc-channel-impl-1.4.2-client.pem>=

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-alto-extension">
+    <repository>mvn:org.opendaylight.alto/odl-alto-northbound/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.alto/odl-alto-spce/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.alto/odl-alto-multicost/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.alto/odl-alto-iupd/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.alto/odl-alto-rsabs/0.5.2/xml/features</repository>
+    <feature name="odl-alto-extension" description="OpenDaylight :: alto :: Extension" version="0.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-northbound</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-spce</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-multicost</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-iupd</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-rsabs</feature>
+    </feature>
+</features>

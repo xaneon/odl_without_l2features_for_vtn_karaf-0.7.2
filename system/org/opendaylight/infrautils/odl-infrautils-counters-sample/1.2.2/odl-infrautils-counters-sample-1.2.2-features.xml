@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-infrautils-counters-sample">
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-counters/1.2.2/xml/features</repository>
+    <feature name="odl-infrautils-counters-sample" description="OpenDaylight :: Infrautils :: Counters Sample" version="1.2.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-infrautils-counters</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>wrap:mvn:org.opendaylight.infrautils/samples-counters-impl/1.2.2</bundle>
+    </feature>
+</features>

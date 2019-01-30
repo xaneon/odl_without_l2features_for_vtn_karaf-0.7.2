@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-groupbasedpolicy">
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-base/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-ofoverlay/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-iovisor/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-neutronmapper/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-neutron-and-ofoverlay/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-vpp/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-neutron-vpp-mapper/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-ui/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-ip-sgt-distribution-service/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-ne-location-provider/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-ios-xe/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-sxp-ep-provider/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-sxp-ise-adapter/0.6.2/xml/features</repository>
+    <feature name="features-groupbasedpolicy" description="ODL :: groupbasedpolicy :: features-groupbasedpolicy" version="0.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-base</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-ofoverlay</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-iovisor</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-neutronmapper</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-neutron-and-ofoverlay</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-vpp</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-neutron-vpp-mapper</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-ui</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-ip-sgt-distribution-service</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-ne-location-provider</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-ios-xe</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-sxp-ep-provider</feature>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-sxp-ise-adapter</feature>
+    </feature>
+</features>

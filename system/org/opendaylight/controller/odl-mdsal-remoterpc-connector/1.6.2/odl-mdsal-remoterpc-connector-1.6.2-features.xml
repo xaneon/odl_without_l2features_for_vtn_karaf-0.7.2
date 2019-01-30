@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-mdsal-remoterpc-connector">
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker-local/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-clustering-commons/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.odlparent/odl-akka-leveldb-0.7/2.0.5/xml/features</repository>
+    <feature name="odl-mdsal-remoterpc-connector" description="odl-mdsal-remoterpc-connector" version="1.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker-local</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-clustering-commons</feature>
+        <feature version="2.0.5" prerequisite="false" dependency="false">odl-akka-leveldb-0.7</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.controller/sal-remoterpc-connector/1.6.2</bundle>
+    </feature>
+</features>

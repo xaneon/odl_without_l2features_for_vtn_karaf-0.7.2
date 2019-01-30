@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-topoprocessing-mlmt">
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-framework/0.4.2/xml/features</repository>
+    <feature name="odl-topoprocessing-mlmt" description="ODL :: topoprocessing :: odl-topoprocessing-mlmt" version="0.4.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-framework</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.controller.model/model-topology/1.6.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/administrative-topology-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/rwa-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-common-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-common-impl/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/multitechnology-topology-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/multitechnology-topology-impl/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/multilayer-topology-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/multilayer-impl/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/forwarding-adjacency-impl/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-inventory-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-inventory-impl/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-parser-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-parser-impl/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-factory-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-factory-impl/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-observer-model/0.4.2</bundle>
+        <bundle>mvn:org.opendaylight.topoprocessing/mlmt-topology-observer-impl/0.4.2</bundle>
+    </feature>
+</features>

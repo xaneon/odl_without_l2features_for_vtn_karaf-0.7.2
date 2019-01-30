@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-faas-vlan-fabric">
+    <repository>mvn:org.opendaylight.faas/odl-faas-fabric/1.3.2/xml/features</repository>
+    <feature name="odl-faas-vlan-fabric" description="OpenDaylight :: faaS :: vlan fabric" version="1.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-faas-fabric</feature>
+        <bundle>mvn:org.opendaylight.faas/vlan-fabric-model/1.3.2</bundle>
+        <bundle>mvn:org.opendaylight.faas/vlan-fabric/1.3.2</bundle>
+    </feature>
+</features>

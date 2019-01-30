@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Feb 14 07:26:49 UTC 2018
+openflowjava-blueprint-config-0.5.2-config.xml>=
+openflowjava-blueprint-config-0.5.2-legacyConfig.xml>=
+openflowjava-blueprint-config-0.5.2.jar>=

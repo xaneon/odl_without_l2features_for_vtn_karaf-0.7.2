@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-dluxapps-topology">
+    <repository>mvn:org.opendaylight.dlux/odl-dlux-core/0.6.2/xml/features</repository>
+    <feature name="odl-dluxapps-topology" description="ODL :: dluxapps :: odl-dluxapps-topology" version="0.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-dlux-core</feature>
+        <bundle>mvn:org.opendaylight.dluxapps/topology-bundle/0.6.2</bundle>
+    </feature>
+</features>

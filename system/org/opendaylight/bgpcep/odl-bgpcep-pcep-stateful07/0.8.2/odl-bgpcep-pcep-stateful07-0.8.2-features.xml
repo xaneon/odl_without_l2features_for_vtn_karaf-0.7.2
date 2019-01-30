@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-bgpcep-pcep-stateful07">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-impl/0.8.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-topology/0.8.2/xml/features</repository>
+    <feature name="odl-bgpcep-pcep-stateful07" description="OpenDaylight :: PCEP :: Stateful 07" version="0.8.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-pcep-impl</feature>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-pcep-topology</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-ietf-stateful07/0.8.2</bundle>
+    </feature>
+</features>

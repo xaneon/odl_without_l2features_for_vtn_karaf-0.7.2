@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-bier-models">
+    <repository>mvn:org.opendaylight.mdsal.model/odl-mdsal-models/0.11.2/xml/features</repository>
+    <feature name="odl-bier-models" description="OpenDaylight :: bier :: models" version="0.2.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.11.2" prerequisite="false" dependency="false">odl-mdsal-models</feature>
+        <bundle>mvn:org.opendaylight.bier/ietf-routing-ex-2016-10-20/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/ietf-mpls-2017-03-11/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/ietf-bier-2016-07-23/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/ietf-multicast-information-2016-10-28/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/ietf-bier-te-2016-10-13/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/bier-te-path-model/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/bier-te-forwarding-model/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/bier-common-model/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/bier-topology-model/0.2.2</bundle>
+        <bundle>mvn:org.opendaylight.bier/bier-channel-model/0.2.2</bundle>
+    </feature>
+</features>

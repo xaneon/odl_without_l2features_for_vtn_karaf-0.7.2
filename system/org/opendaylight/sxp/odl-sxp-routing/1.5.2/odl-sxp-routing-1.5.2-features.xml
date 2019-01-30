@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-sxp-routing">
+    <repository>mvn:org.opendaylight.sxp/odl-sxp-controller/1.5.2/xml/features</repository>
+    <feature name="odl-sxp-routing" description="Feature :: OpenDaylight :: Sxp :: Cluster routing" version="1.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-sxp-controller</feature>
+        <bundle>mvn:org.opendaylight.sxp/sxp-cluster-route/1.5.2</bundle>
+    </feature>
+</features>

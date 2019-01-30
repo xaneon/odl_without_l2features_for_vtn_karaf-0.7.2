@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-bgpcep-pcep-auto-bandwidth">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-stateful07/0.8.2/xml/features</repository>
+    <feature name="odl-bgpcep-pcep-auto-bandwidth" description="OpenDaylight :: PCEP :: Auto Bandwidth" version="0.8.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.8.2" prerequisite="false" dependency="false">odl-bgpcep-pcep-stateful07</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-auto-bandwidth-extension/0.8.2</bundle>
+    </feature>
+</features>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-yangtools-common">
+    <repository>mvn:org.opendaylight.odlparent/odl-guava-22/2.0.5/xml/features</repository>
+    <feature name="odl-yangtools-common" description="OpenDaylight :: Yangtools :: Common" version="1.2.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="2.0.5" prerequisite="false" dependency="false">odl-guava-22</feature>
+        <bundle>mvn:org.opendaylight.yangtools/util/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/concepts/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/object-cache-guava/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/object-cache-api/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/object-cache-noop/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/yang-common/1.2.2</bundle>
+        <bundle>mvn:org.opendaylight.yangtools/triemap/0.10.2</bundle>
+    </feature>
+</features>

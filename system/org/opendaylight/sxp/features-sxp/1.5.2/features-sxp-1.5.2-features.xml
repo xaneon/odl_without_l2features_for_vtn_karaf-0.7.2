@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-sxp">
+    <repository>mvn:org.opendaylight.sxp/odl-sxp-api/1.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sxp/odl-sxp-core/1.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sxp/odl-sxp-controller/1.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sxp/odl-sxp-robot/1.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.sxp/odl-sxp-routing/1.5.2/xml/features</repository>
+    <feature name="features-sxp" description="ODL :: sxp :: features-sxp" version="1.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-sxp-api</feature>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-sxp-core</feature>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-sxp-controller</feature>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-sxp-robot</feature>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-sxp-routing</feature>
+    </feature>
+</features>

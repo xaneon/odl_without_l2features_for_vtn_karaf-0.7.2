@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-mdsal-apidocs">
+    <repository>mvn:org.opendaylight.netconf/odl-restconf/1.6.2/xml/features</repository>
+    <feature name="odl-mdsal-apidocs" description="OpenDaylight :: MDSAL :: APIDOCS" version="1.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-restconf</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.netconf/sal-rest-docgen/1.6.2</bundle>
+        <bundle>wrap:mvn:com.github.mifmif/generex/1.0.0</bundle>
+        <bundle>wrap:mvn:org.jboss.resteasy/jaxrs-api/3.0.12.Final</bundle>
+        <bundle>wrap:mvn:dk.brics.automaton/automaton/1.11-8</bundle>
+    </feature>
+</features>

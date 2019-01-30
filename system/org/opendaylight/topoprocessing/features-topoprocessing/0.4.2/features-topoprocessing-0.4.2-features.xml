@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-topoprocessing">
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-framework/0.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-i2rs/0.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-inventory/0.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-inventory-rendering/0.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-network-topology/0.4.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.topoprocessing/odl-topoprocessing-mlmt/0.4.2/xml/features</repository>
+    <feature name="features-topoprocessing" description="ODL :: topoprocessing :: features-topoprocessing" version="0.4.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-framework</feature>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-i2rs</feature>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-inventory</feature>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-inventory-rendering</feature>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-network-topology</feature>
+        <feature version="0.4.2" prerequisite="false" dependency="false">odl-topoprocessing-mlmt</feature>
+    </feature>
+</features>

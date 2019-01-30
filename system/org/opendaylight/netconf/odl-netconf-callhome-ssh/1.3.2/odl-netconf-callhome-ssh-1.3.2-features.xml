@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-netconf-callhome-ssh">
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-topology/1.3.2/xml/features</repository>
+    <feature name="odl-netconf-callhome-ssh" description="OpenDaylight :: Netconf Connector :: Netconf Callhome Connector + Netconf SSH Server + loopback connection configuration" version="1.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-topology</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.netconf/netconf-connector-config/1.3.2</bundle>
+        <bundle>mvn:org.opendaylight.netconf/callhome-model/1.3.2</bundle>
+        <bundle>mvn:org.opendaylight.netconf/callhome-protocol/1.3.2</bundle>
+        <bundle>mvn:org.opendaylight.netconf/callhome-provider/1.3.2</bundle>
+    </feature>
+</features>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-netconf">
+    <repository>mvn:org.opendaylight.aaa/odl-aaa-encryption-service/0.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-aaa-netconf-plugin/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-aaa-netconf-plugin-no-cluster/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-config-netconf-connector/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-all/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-api/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-client/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-impl/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-mapping-api/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-mdsal/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-monitoring/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-netty-util/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-notifications-api/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-notifications-impl/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-ssh/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-tcp/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-util/1.3.2/xml/features</repository>
+    <feature name="features-netconf" description="features-netconf" version="1.3.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-aaa-encryption-service</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-aaa-netconf-plugin</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-aaa-netconf-plugin-no-cluster</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-config-netconf-connector</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-all</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-api</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-client</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-impl</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-mapping-api</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-netconf-mdsal</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-monitoring</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-netty-util</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-notifications-api</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-notifications-impl</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-ssh</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-tcp</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-util</feature>
+    </feature>
+</features>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-ovsdb-hwvtepsouthbound-test">
+    <repository>mvn:org.opendaylight.ovsdb/odl-ovsdb-hwvtepsouthbound/1.5.2/xml/features</repository>
+    <feature name="odl-ovsdb-hwvtepsouthbound-test" description="ODL :: ovsdb :: odl-ovsdb-hwvtepsouthbound-test" version="1.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-ovsdb-hwvtepsouthbound</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.ovsdb/utils.hwvtepsouthbound-utils/1.5.2</bundle>
+    </feature>
+</features>

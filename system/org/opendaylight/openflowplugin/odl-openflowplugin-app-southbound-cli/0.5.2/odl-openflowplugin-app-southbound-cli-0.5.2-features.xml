@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-openflowplugin-app-southbound-cli">
+    <repository>mvn:org.opendaylight.openflowplugin/odl-openflowplugin-southbound/0.5.2/xml/features</repository>
+    <feature name="odl-openflowplugin-app-southbound-cli" description="OpenDaylight :: Openflow Plugin :: Application - Southbound CLI" version="0.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-openflowplugin-southbound</feature>
+        <bundle>mvn:org.opendaylight.openflowplugin.applications/southbound-cli/0.5.2</bundle>
+    </feature>
+</features>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-lispflowmapping-neutron">
+    <repository>mvn:org.opendaylight.neutron/odl-neutron-service/0.9.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.honeycomb.vbd/odl-vbd/1.2.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-tcp/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-clustered-topology/1.3.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-mappingservice/1.6.2/xml/features</repository>
+    <feature name="odl-lispflowmapping-neutron" description="ODL :: lispflowmapping :: odl-lispflowmapping-neutron" version="1.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.9.2" prerequisite="false" dependency="false">odl-neutron-service</feature>
+        <feature version="1.2.2" prerequisite="false" dependency="false">odl-vbd</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-tcp</feature>
+        <feature version="1.3.2" prerequisite="false" dependency="false">odl-netconf-clustered-topology</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-mappingservice</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.lispflowmapping/mappingservice.neutron/1.6.2</bundle>
+    </feature>
+</features>

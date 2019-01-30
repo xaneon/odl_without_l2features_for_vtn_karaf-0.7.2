@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-config-manager-facade-xml">
+    <repository>mvn:org.opendaylight.controller/odl-config-core/0.7.2/xml/features</repository>
+    <feature name="odl-config-manager-facade-xml" description="Opendaylight :: Config Persister:: Mapping for Config Subsystem" version="0.7.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.7.2" prerequisite="false" dependency="false">odl-config-core</feature>
+        <bundle>mvn:org.opendaylight.controller/config-manager-facade-xml/0.7.2</bundle>
+    </feature>
+</features>

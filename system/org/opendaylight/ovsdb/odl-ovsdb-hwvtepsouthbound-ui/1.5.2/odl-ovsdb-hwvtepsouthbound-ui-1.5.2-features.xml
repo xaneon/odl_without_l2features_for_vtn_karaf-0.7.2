@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-ovsdb-hwvtepsouthbound-ui">
+    <repository>mvn:org.opendaylight.ovsdb/odl-ovsdb-hwvtepsouthbound-rest/1.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-mdsal-apidocs/1.6.2/xml/features</repository>
+    <feature name="odl-ovsdb-hwvtepsouthbound-ui" description="ODL :: ovsdb :: odl-ovsdb-hwvtepsouthbound-ui" version="1.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.5.2" prerequisite="false" dependency="false">odl-ovsdb-hwvtepsouthbound-rest</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-apidocs</feature>
+    </feature>
+</features>

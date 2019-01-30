@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-lispflowmapping-mappingservice">
+    <repository>mvn:org.opendaylight.netconf/odl-restconf/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-models/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-inmemorydb/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-southbound/1.6.2/xml/features</repository>
+    <feature name="odl-lispflowmapping-mappingservice" description="ODL :: lispflowmapping :: odl-lispflowmapping-mappingservice" version="1.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-restconf</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-models</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-inmemorydb</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-lispflowmapping-southbound</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.lispflowmapping/mappingservice.implementation/1.6.2</bundle>
+    </feature>
+</features>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-integration-distribution-0.7.2">
+    <repository>mvn:org.opendaylight.controller/odl-config-persister/0.7.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.2/xml/features</repository>
+    <feature name="odl-distribution-version" description="ODL :: integration :: odl-distribution-version" version="0.7.2">
+        <details>Single feature for Version functionality.</details>
+        <configfile finalname="etc/opendaylight/karaf/odl-version.xml">
+            mvn:org.opendaylight.integration/version/0.7.2/xml/config
+        </configfile>
+        <feature version="0.7.2" prerequisite="false" dependency="false">odl-config-persister</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.integration/version/0.7.2</bundle>
+    </feature>
+</features>

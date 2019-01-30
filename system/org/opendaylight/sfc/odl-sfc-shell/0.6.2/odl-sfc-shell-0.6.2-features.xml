@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-sfc-shell">
+    <repository>mvn:org.opendaylight.sfc/odl-sfc-provider/0.6.2/xml/features</repository>
+    <feature name="odl-sfc-shell" description="ODL :: sfc :: odl-sfc-shell" version="0.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-sfc-provider</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.sfc/sfc-shell/0.6.2</bundle>
+    </feature>
+</features>

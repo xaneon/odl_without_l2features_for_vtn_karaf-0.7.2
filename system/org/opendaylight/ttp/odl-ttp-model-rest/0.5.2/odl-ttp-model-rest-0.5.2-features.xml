@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-ttp-model-rest">
+    <repository>mvn:org.opendaylight.ttp/odl-ttp-model/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-mdsal-apidocs/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-restconf/1.6.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.2/xml/features</repository>
+    <feature name="odl-ttp-model-rest" description="ODL :: ttp :: odl-ttp-model-rest" version="0.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-ttp-model</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-apidocs</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-restconf</feature>
+        <feature version="1.6.2" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+    </feature>
+</features>

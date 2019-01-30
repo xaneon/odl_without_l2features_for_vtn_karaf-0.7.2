@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-alto-core">
+    <repository>mvn:org.opendaylight.alto/odl-alto-standard-northbound-route/0.5.2/xml/features</repository>
+    <feature name="odl-alto-core" description="OpenDaylight :: alto :: Core" version="0.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-standard-northbound-route</feature>
+    </feature>
+</features>

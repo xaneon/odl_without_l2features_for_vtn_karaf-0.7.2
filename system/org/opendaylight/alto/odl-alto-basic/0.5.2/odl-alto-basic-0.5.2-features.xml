@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-alto-basic">
+    <repository>mvn:org.opendaylight.alto/odl-alto-simpleird/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.alto/odl-alto-manual-maps/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.alto/odl-alto-simpleecs/0.5.2/xml/features</repository>
+    <repository>mvn:org.opendaylight.alto/odl-alto-auto-maps/0.5.2/xml/features</repository>
+    <feature name="odl-alto-basic" description="OpenDaylight :: alto :: Basic" version="0.5.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-simpleird</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-manual-maps</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-simpleecs</feature>
+        <feature version="0.5.2" prerequisite="false" dependency="false">odl-alto-auto-maps</feature>
+    </feature>
+</features>

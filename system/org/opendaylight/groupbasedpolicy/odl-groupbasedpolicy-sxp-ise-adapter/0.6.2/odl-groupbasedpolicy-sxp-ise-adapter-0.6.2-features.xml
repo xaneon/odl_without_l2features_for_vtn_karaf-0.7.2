@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-groupbasedpolicy-sxp-ise-adapter">
+    <repository>mvn:org.opendaylight.groupbasedpolicy/odl-groupbasedpolicy-sxp-ep-provider/0.6.2/xml/features</repository>
+    <feature name="odl-groupbasedpolicy-sxp-ise-adapter" description="ODL :: groupbasedpolicy :: odl-groupbasedpolicy-sxp-ise-adapter" version="0.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-groupbasedpolicy-sxp-ep-provider</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.groupbasedpolicy/sxp-ise-adapter/0.6.2</bundle>
+        <bundle>mvn:com.sun.jersey/jersey-client/1.17</bundle>
+        <bundle>mvn:com.sun.jersey/jersey-core/1.17</bundle>
+        <bundle>mvn:com.sun.jersey/jersey-server/1.17</bundle>
+        <bundle>wrap:mvn:asm/asm/3.1</bundle>
+    </feature>
+</features>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features-snmp4sdn">
+    <repository>mvn:org.opendaylight.snmp4sdn/odl-snmp4sdn-snmp4sdn/0.6.2/xml/features</repository>
+    <feature name="features-snmp4sdn" description="features-snmp4sdn" version="0.6.2">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.6.2" prerequisite="false" dependency="false">odl-snmp4sdn-snmp4sdn</feature>
+    </feature>
+</features>

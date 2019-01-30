@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Feb 14 07:26:47 UTC 2018
+cli-renderer-1.3.2.jar>=
+cli-renderer-1.3.2-host-resource.json>=
+cli-renderer-1.3.2-link-resource.json>=
+cli-renderer-1.3.2-external-resource.json>=
+cli-renderer-1.3.2-node-resource.json>=

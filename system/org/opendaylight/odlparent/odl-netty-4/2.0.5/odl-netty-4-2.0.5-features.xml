@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-netty-4">
+    <repository>mvn:org.opendaylight.odlparent/odl-javassist-3/2.0.5/xml/features</repository>
+    <feature name="odl-netty-4" description="OpenDaylight :: Netty" version="2.0.5">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="2.0.5" prerequisite="false" dependency="false">odl-javassist-3</feature>
+        <bundle>mvn:io.netty/netty-codec-http/4.1.8.Final</bundle>
+        <bundle>mvn:io.netty/netty-codec/4.1.8.Final</bundle>
+        <bundle>mvn:io.netty/netty-handler/4.1.8.Final</bundle>
+        <bundle>mvn:io.netty/netty-buffer/4.1.8.Final</bundle>
+        <bundle>mvn:io.netty/netty-transport/4.1.8.Final</bundle>
+        <bundle>mvn:io.netty/netty-resolver/4.1.8.Final</bundle>
+        <bundle>mvn:io.netty/netty-transport-native-epoll/4.1.8.Final/jar/linux-x86_64</bundle>
+        <bundle>mvn:io.netty/netty-common/4.1.8.Final</bundle>
+    </feature>
+</features>
